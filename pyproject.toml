@@ -5,15 +5,25 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "duckdb>=1.4.3",
+    "geopandas>=1.1.2",
+    "geos>=0.2.3",
     "gitautopush>=0.4.1",
     "jupyter>=1.1.1",
     "jupyter-core>=5.9.1",
     "loro>=1.10.3",
     "marimo[recommended]>=0.18.4",
     "matplotlib>=3.10.8",
+    "msgspec>=0.20.0",
     "numpy>=2.4.0",
+    "openpyxl>=3.1.5",
     "pandas>=2.3.3",
     "plotly>=6.5.0",
     "pyarrow>=22.0.0",
+    "rich>=14.2.0",
     "seaborn>=0.13.2",
+    "sqlalchemy>=2.0.45",
+    "statsmodels>=0.14.6",
+    "xlrd>=2.0.2",
 ]
