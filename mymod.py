@@ -8,3 +8,5 @@ def hello(name):
     return f'Hello, {name}!'
 
 print(f'Now leaving {__name__}!')
+
+print(hello('world'))
