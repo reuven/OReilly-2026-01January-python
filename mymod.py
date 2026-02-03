@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+if __name__ == '__main__':   # only run this code if we're executing mymod.py -- not if we're importing it
     print(f'Hello from {__name__}!')
 
 x = 100
