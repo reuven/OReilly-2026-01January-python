@@ -6,3 +6,6 @@ def menu(choices):
             return user_choice        # return their choice
 
         print(f'Illegal choice; try again!')
+
+s = menu(['a', 'b', 'c'])
+print(f'User chose {s}')
