@@ -9,4 +9,4 @@ def hello(name):
 
 print(f'Now leaving {__name__}!')
 
-print(hello('world'))
+# print(hello('world'))
