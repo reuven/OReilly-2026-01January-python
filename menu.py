@@ -7,5 +7,9 @@ def menu(choices):
 
         print(f'Illegal choice; try again!')
 
-s = menu(['a', 'b', 'c'])
-print(f'User chose {s}')
+# Only run the stuff below this line
+# if we're running menu.py as a program
+# but ignore it if we're importing it
+if __name__ == '__main__':
+    s = menu(['a', 'b', 'c'])
+    print(f'User chose {s}')
