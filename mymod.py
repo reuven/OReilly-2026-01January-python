@@ -1,5 +1,5 @@
-if __name__ == 
-print(f'Hello from {__name__}!')
+if __name__ == '__main__':
+    print(f'Hello from {__name__}!')
 
 x = 100
 
